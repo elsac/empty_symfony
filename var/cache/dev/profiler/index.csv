@@ -1,0 +1,13 @@
+9c0d42,127.0.0.1,GET,http://localhost:8000/show/2,1571321620,f6fed2,200
+f6fed2,127.0.0.1,GET,http://localhost:8000/show/2,1571321620,,500
+7f5301,127.0.0.1,GET,http://localhost:8000/show/2,1571321637,966078,200
+966078,127.0.0.1,GET,http://localhost:8000/show/2,1571321637,,500
+a11dce,127.0.0.1,GET,http://localhost:8000/show/2,1571321667,,200
+bd5290,127.0.0.1,GET,http://localhost:8000/favicon.ico,1571321668,b6b20a,200
+b6b20a,127.0.0.1,GET,http://localhost:8000/favicon.ico,1571321668,,404
+598586,127.0.0.1,GET,http://localhost:8000/show/2,1571321715,,200
+b5b3dc,127.0.0.1,GET,http://localhost:8000/favicon.ico,1571321716,facddd,200
+facddd,127.0.0.1,GET,http://localhost:8000/favicon.ico,1571321716,,404
+a95a46,127.0.0.1,GET,http://localhost:8000/show/2,1571321992,,200
+002b5d,127.0.0.1,GET,http://localhost:8000/favicon.ico,1571321993,a21365,200
+a21365,127.0.0.1,GET,http://localhost:8000/favicon.ico,1571321993,,404

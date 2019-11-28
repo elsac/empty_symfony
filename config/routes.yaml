@@ -1,0 +1,27 @@
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+logout:
+    path: /logout
+prop:
+    path: /prop
+    controller: App\Controller\PropertyController::index
+show:
+    path: /show/{id}
+    controller: App\Controller\PropertyController::show_product
+admin:
+    path: /admin
+    controller: App\Controller\Admin\AdminPropertyController::index    
+admin_edit:
+    path: /admin/edit/{id}
+    controller: App\Controller\Admin\AdminPropertyController::edit
+    methods: GET|POST
+admin_create:
+    path: /admin/create
+    controller: App\Controller\Admin\AdminPropertyController::create
+admin_delete:
+    path: /admin/delete/{id}
+    controller: App\Controller\Admin\AdminPropertyController::delete

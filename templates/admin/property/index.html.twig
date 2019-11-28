@@ -1,0 +1,27 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+<div class="container">
+    <h1>{% trans %}Hello{% endtrans %},Gérer mes biens </h1>
+</div>
+
+{% for msg in app.flashes('success') %}
+    <div class="alert alert-success">
+        {{ msg }}
+    </div>
+{% endfor %}
+
+<div class="container">
+        <div class="row flex"><a href="/admin/create" class="btn btn-primary">Créer</a></div>
+    {% for prop in properties %}
+        <div class="row flex">
+            {{ prop.title }}
+            <a href="/admin/edit/{{prop.id}}" class="btn btn-primary">Editer</a>
+            <a href="/admin/delete/{{prop.id}}" class="btn btn-warning">Supprimer</a>
+        </div>
+        <hr>
+    {% endfor %}
+</div>
+
+{% endblock %}

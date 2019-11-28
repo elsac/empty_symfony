@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+<div class="container">
+    <h1>{% trans  %}Hello{% endtrans %}, {% trans %}Welcome to my agency{% endtrans %} </h1>
+</div>
+<div class="container">
+    <h4 style="margin-bottom: 30px;">Mes derniers biens</h4>
+    {% for prop in properties %}
+        <div class="row flex"><a href="/show/{{ prop.id }}">{{ prop.title }}</a></div><hr>
+    {% endfor %}
+</div>
+
+{% endblock %}
